@@ -12,5 +12,5 @@ The simplest application realtime chat with serverless and free forever
 
 # Screenshots
 
-<img src="screenshots/screenshot1.png" border="5" alt="Chat Message Adapter" width="300">&nbsp;
-<img src="screenshots/screenshot2.png" border="5" alt="Chat Message Adapter" width="300">
+<img src="screenshot/1.png" border="5" alt="Chat Message Adapter" width="300">&nbsp;
+<img src="screenshot/2.png" border="5" alt="Chat Message Adapter" width="300">
