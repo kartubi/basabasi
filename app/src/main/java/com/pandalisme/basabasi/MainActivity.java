@@ -12,12 +12,11 @@ import android.widget.Toast;
 import com.pandalisme.basabasi.ui.chat.ChatActivity;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.btNext)
-    Button btNext;
     @BindView(R.id.etName)
     EditText etName;
 
@@ -32,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @OnClick(R.id.btNext)
     private void validation(){
         name = etName.getText().toString();
         if (!name.isEmpty()){
